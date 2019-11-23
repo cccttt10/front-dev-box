@@ -4,7 +4,8 @@
   "description": "a list of useful front-end dev resources that I collected",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint --ext js --ext vue ./src ./config --fix && stylelint \"./src/**/*.vue\" --fix"
   },
   "keywords": [
     "front-end",
