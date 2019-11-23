@@ -1,17 +1,20 @@
 module.exports = {
     env: {
-      browser: true,
-      commonjs: true,
-      node: true,
-      es6: true,
-      mocha: true
+        browser: true,
+        commonjs: true,
+        node: true,
+        es6: true,
+        mocha: true
     },
-    extends: ['eslint-config-airbnb-base', 'plugin:vue/essential'],
+    extends: [ 'eslint-config-airbnb-base', 'plugin:vue/essential' ],
     parserOptions: {
-      ecmaVersion: 2018,
-      sourceType: 'module'
+        ecmaVersion: 2018,
+        sourceType: 'module'
     },
     rules: {
-      'import/no-unresolved': 'off'
+        'import/no-unresolved': 'off',
+        'indent': [ 'error', 4 ],
+        'array-bracket-spacing': 'off',
+        'comma-dangle': 'off'
     }
 };
