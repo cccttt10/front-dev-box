@@ -1,0 +1,16 @@
+{
+  "name": "front-end-product-hunt",
+  "version": "1.0.0",
+  "description": "a list of useful front-end dev resources that I collected",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "front-end",
+    "frontend",
+    "dev"
+  ],
+  "author": "Chuntong Gao",
+  "license": "ISC"
+}
