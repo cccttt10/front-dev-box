@@ -13,7 +13,7 @@ module.exports = {
     },
     rules: {
         'import/no-unresolved': 'off',
-        'indent': [ 'error', 4 ],
+        'indent': [ 'error', 4, { 'SwitchCase': 1 } ],
         'array-bracket-spacing': 'off',
         'comma-dangle': 'off'
     }
