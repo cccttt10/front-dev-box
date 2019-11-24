@@ -1,5 +1,7 @@
 # Front Dev Box
 
+!(banner)[./assets/front-dev-box.png]
+
 > Toolbox for front-end development
 
 ## Preview
