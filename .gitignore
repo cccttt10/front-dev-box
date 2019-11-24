@@ -2,3 +2,4 @@ node_modules
 dist
 chrome-extends
 coverage
+.DS_Store
