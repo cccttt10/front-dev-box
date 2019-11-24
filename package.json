@@ -14,7 +14,7 @@
         "webpack-bundle-analyzer": "^3.6.0",
         "webpack-merge": "^4.2.2"
     },
-    "description": "useful front-end tools and resources that I use everyday",
+    "description": "toolbox for front-end development",
     "devDependencies": {
         "@babel/core": "^7.7.4",
         "@babel/preset-env": "^7.7.4",
@@ -59,7 +59,7 @@
     ],
     "license": "ISC",
     "main": "index.js",
-    "name": "front-end-app-store",
+    "name": "front-dev-box",
     "scripts": {
         "analysis": "cross-env NODE_ENV=analysis webpack --progress",
         "build": "rimraf ./dist && cross-env NODE_ENV=production webpack --progress",
