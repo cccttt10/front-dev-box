@@ -87,7 +87,7 @@ export default {
     @include setBackground(#eb2f96);
 }
 
-.blogList:hover {
+.blogList-hover:hover {
     @include setBackground(#e6a23c);
 }
 
