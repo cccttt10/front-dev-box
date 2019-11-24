@@ -3,8 +3,8 @@
         <block :data="toolList" type="toolList"></block>
         <block :data="techList" type="techList"></block>
         <block :data="specList" type="specList"></block>
-        <block :data="blogList" type="blogList"></block>
         <block :data="learningList" type="learningList"></block>
+        <block :data="blogList" type="blogList"></block>
     </div>
 </template>
 
