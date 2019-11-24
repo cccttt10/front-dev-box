@@ -9,7 +9,7 @@
             >
                 <a
                     class="github"
-                    href="https://github.com/lmjben/front-end-box"
+                    href="https://github.com/chuntonggao/front-end-box"
                     target="_blank"
                 >
                     <img src="../assets/github.png" alt="github" />
