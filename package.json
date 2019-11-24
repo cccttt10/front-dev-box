@@ -63,15 +63,16 @@
     "main": "index.js",
     "name": "front-dev-box",
     "scripts": {
-        "analysis": "cross-env NODE_ENV=analysis webpack --progress",
-        "build": "rimraf ./dist && cross-env NODE_ENV=production webpack --progress",
-        "check": "prettier --config ./.prettierrc.json --check \"./**/*.{js,vue,css,scss,html}\" && npm run lint:fix",
-        "coverage": "cat test/unit/coverage/lcov.info | coveralls",
+        "preinstall": "node -r fs -e \"fs.existsSync('.git/hooks') || fs.mkdirSync('.git/hooks')\"",
         "dev": "cross-env NODE_ENV=development webpack-dev-server --open",
         "lint": "eslint --ext js --ext vue ./src ./config && stylelint \"./src/**/*.vue\"",
         "lint:fix": "eslint --ext js --ext vue ./src ./config --fix && stylelint \"./src/**/*.vue\" --fix",
         "pretty": "prettier --config ./.prettierrc.json --write \"./**/*.{js,vue,css,scss,html}\" && npm run lint",
-        "test": "cross-env NODE_ENV=chrome BABEL_ENV=test karma start test/unit/karma.conf.js"
+        "check": "prettier --config ./.prettierrc.json --check \"./**/*.{js,vue,css,scss,html}\" && npm run lint:fix",
+        "build": "rimraf ./dist && cross-env NODE_ENV=production webpack --progress",
+        "test": "cross-env NODE_ENV=chrome BABEL_ENV=test karma start test/unit/karma.conf.js",
+        "coverage": "cat test/unit/coverage/lcov.info | coveralls",
+        "analysis": "cross-env NODE_ENV=analysis webpack --progress"
     },
     "version": "1.0.0"
 }
