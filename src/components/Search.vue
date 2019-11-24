@@ -7,7 +7,7 @@
             class="input-with-select"
         >
             <el-select
-                v-odel="searchType"
+                v-model="searchType"
                 slot="prepend"
                 placeholder="Select search engine..."
             >
