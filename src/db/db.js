@@ -32,7 +32,7 @@ export const searchOptions = [
 ];
 
 export const toolList = {
-    title: 'tools & references',
+    title: 'Tools & References',
     list: [
         {
             name: 'Regex Reference',
@@ -114,126 +114,138 @@ export const toolList = {
     ]
 };
 
-export const specList = [
-    {
-        name: 'Semantic Versioning',
-        url: 'https://semver.org'
-    },
-    {
-        name: 'Licenses',
-        url: 'https://choosealicense.com/licenses/'
-    },
-    {
-        name: 'JSON Schema',
-        url: 'https://www.json.org/json-zh.html'
-    },
-    {
-        name: 'ES5 Spec',
-        url: 'http://es5.github.io'
-    },
-    {
-        name: 'Airbnb JavaScript Style Guide',
-        url: 'https://github.com/airbnb/javascript'
-    }
-];
+export const techList = {
+    title: 'Popular Technologies',
+    list: [
+        {
+            name: 'React',
+            url: 'https://reactjs.org'
+        },
+        {
+            name: 'React Lifecycle Methods',
+            url: 'http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/'
+        },
+        {
+            name: 'Redux',
+            url: 'https://redux.js.org'
+        },
+        {
+            name: 'Vue',
+            url: 'https://vuejs.org/index.html'
+        },
+        {
+            name: 'Angular',
+            url: 'https://angular.io'
+        },
+        {
+            name: 'Webpack',
+            url: 'https://webpack.js.org/'
+        },
+        {
+            name: 'Node',
+            url: 'https://nodejs.org/en/'
+        },
+        {
+            name: 'Express',
+            url: 'https://expressjs.com'
+        },
+        {
+            name: 'TypeScript',
+            url: 'https://www.typescriptlang.org'
+        },
+        {
+            name: 'GraphQL',
+            url: 'https://graphql.org'
+        },
+        {
+            name: 'Babel',
+            url: 'https://babeljs.io'
+        },
+        {
+            name: 'Docker',
+            url: 'https://docs.docker.com/'
+        },
+        {
+            name: 'Sass',
+            url: 'https://sass-lang.com'
+        },
+        {
+            name: 'Netlify',
+            url: 'https://www.netlify.com'
+        },
+        {
+            name: 'ESLint',
+            url: 'https://eslint.org'
+        },
+        {
+            name: 'Prettier',
+            url: 'https://prettier.io'
+        }
+    ]
+};
 
-export const learningList = [
-    {
-        name: '2019 Front-End Handbook',
-        url: 'https://frontendmasters.com/books/front-end-handbook/2019/'
-    },
-    {
-        name: '2019 Developer Roadmap',
-        url: 'https://github.com/kamranahmedse/developer-roadmap'
-    },
-    {
-        name: 'Leet Code',
-        url: 'https://leetcode.com'
-    },
-    {
-        name: 'Design Patterns',
-        url: 'https://refactoring.guru/design-patterns/catalog'
-    },
-    {
-        name: 'Udemy',
-        url: 'https://www.udemy.com'
-    }
-];
+export const specList = {
+    title: 'Specifications & Standards',
+    list: [
+        {
+            name: 'Semantic Versioning',
+            url: 'https://semver.org'
+        },
+        {
+            name: 'Licenses',
+            url: 'https://choosealicense.com/licenses/'
+        },
+        {
+            name: 'JSON Schema',
+            url: 'https://www.json.org/json-zh.html'
+        },
+        {
+            name: 'ES5 Spec',
+            url: 'http://es5.github.io'
+        },
+        {
+            name: 'Airbnb JavaScript Style Guide',
+            url: 'https://github.com/airbnb/javascript'
+        }
+    ]
+};
 
-export const techList = [
-    {
-        name: 'React',
-        url: 'https://reactjs.org'
-    },
-    {
-        name: 'React Lifecycle Methods',
-        url: 'http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/'
-    },
-    {
-        name: 'Redux',
-        url: 'https://redux.js.org'
-    },
-    {
-        name: 'Vue',
-        url: 'https://vuejs.org/index.html'
-    },
-    {
-        name: 'Angular',
-        url: 'https://angular.io'
-    },
-    {
-        name: 'Webpack',
-        url: 'https://webpack.js.org/'
-    },
-    {
-        name: 'Node',
-        url: 'https://nodejs.org/en/'
-    },
-    {
-        name: 'Express',
-        url: 'https://expressjs.com'
-    },
-    {
-        name: 'TypeScript',
-        url: 'https://www.typescriptlang.org'
-    },
-    {
-        name: 'GraphQL',
-        url: 'https://graphql.org'
-    },
-    {
-        name: 'Babel',
-        url: 'https://babeljs.io'
-    },
-    {
-        name: 'Docker',
-        url: 'https://docs.docker.com/'
-    },
-    {
-        name: 'Sass',
-        url: 'https://sass-lang.com'
-    },
-    {
-        name: 'Netlify',
-        url: 'https://www.netlify.com'
-    },
-    {
-        name: 'ESLint',
-        url: 'https://eslint.org'
-    },
-    {
-        name: 'Prettier',
-        url: 'https://prettier.io'
-    }
-];
+export const blogList = {
+    title: 'Blogs',
+    list: [
+        {
+            name: 'Dan Abramov',
+            url: 'https://overreacted.io'
+        },
+        {
+            name: 'Philip Roberts',
+            url: 'https://github.com/latentflip'
+        }
+    ]
+};
 
-export const blogList = [
-    {
-        name: 'Dan Abramov',
-        url: 'https://overreacted.io'
-    },
-    {
-        name: 'Philip Roberts',
-        url: 'https://github.com/latentflip'
-    }
-];
+export const learningList = {
+    title: 'Learning Resources',
+    list: [
+        {
+            name: '2019 Front-End Handbook',
+            url: 'https://frontendmasters.com/books/front-end-handbook/2019/'
+        },
+        {
+            name: '2019 Developer Roadmap',
+            url: 'https://github.com/kamranahmedse/developer-roadmap'
+        },
+        {
+            name: 'Leet Code',
+            url: 'https://leetcode.com'
+        },
+        {
+            name: 'Design Patterns',
+            url: 'https://refactoring.guru/design-patterns/catalog'
+        },
+        {
+            name: 'Udemy',
+            url: 'https://www.udemy.com'
+        }
+    ]
+};

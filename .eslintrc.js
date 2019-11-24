@@ -17,6 +17,9 @@ module.exports = {
         'array-bracket-spacing': 'off',
         'comma-dangle': 'off',
         'import/prefer-default-export': 'off',
-        'arrow-parens': 'off'
+        'arrow-parens': 'off',
+        'object-curly-newline': 'off',
+        'operator-linebreak': 'off',
+        'prefer-destructuring': 'off'
     }
 };

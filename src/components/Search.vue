@@ -28,7 +28,7 @@
 </template>
 
 <script>
-import { searchOptions } from '~db/db';
+import { searchOptions } from '~/db/db';
 
 export default {
     data() {
