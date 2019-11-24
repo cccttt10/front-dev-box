@@ -12,7 +12,7 @@ module.exports = smart(config, {
         hot: true,
         host: '0.0.0.0'
     },
-    plugins: [ new webpack.HotModuleReplacementPlugin() ],
+    plugins: [new webpack.HotModuleReplacementPlugin()],
     externals: {
         vue: 'Vue',
         'element-ui': 'ELEMENT'

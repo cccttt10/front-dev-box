@@ -60,7 +60,8 @@ export const toolList = {
         },
         {
             name: 'Mobile Device Debugger',
-            url: 'https://github.com/wuchangming/spy-debugger/blob/master/README_EN.md'
+            url:
+                'https://github.com/wuchangming/spy-debugger/blob/master/README_EN.md'
         },
         {
             name: 'CDN',

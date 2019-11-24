@@ -6,14 +6,14 @@ module.exports = {
         es6: true,
         mocha: true
     },
-    extends: [ 'eslint-config-airbnb-base', 'plugin:vue/essential' ],
+    extends: ['eslint-config-airbnb-base', 'plugin:vue/essential'],
     parserOptions: {
         ecmaVersion: 2018,
         sourceType: 'module'
     },
     rules: {
         'import/no-unresolved': 'off',
-        'indent': [ 'error', 4, { 'SwitchCase': 1 } ],
+        'indent': ['error', 4, { 'SwitchCase': 1 }],
         'array-bracket-spacing': 'off',
         'comma-dangle': 'off',
         'import/prefer-default-export': 'off',

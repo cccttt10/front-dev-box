@@ -37,15 +37,15 @@ const config = {
             },
             {
                 test: /\.js$/,
-                loader: [ 'babel-loader' ]
+                loader: ['babel-loader']
             },
             {
                 test: /\.css$/,
-                use: [ 'style-loader', 'css-loader' ]
+                use: ['style-loader', 'css-loader']
             },
             {
                 test: /\.scss$/,
-                use: [ 'style-loader', 'css-loader', 'postcss-loader', 'sass-loader' ]
+                use: ['style-loader', 'css-loader', 'postcss-loader', 'sass-loader']
             }
         ]
     },
@@ -53,7 +53,7 @@ const config = {
         new VueLoaderPlugin(),
         new StyleLintPlugin({
             // Use regex to match files that should be linted
-            files: [ 'src/**/*.vue' ]
+            files: ['src/**/*.vue']
         }),
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, 'template/index.ejs'),
