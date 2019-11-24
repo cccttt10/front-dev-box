@@ -1,7 +1,7 @@
 {
     "arrowParens": "avoid",
     "bracketSpacing": true,
-    "printWidth": 85,
+    "printWidth": 80,
     "quoteProps": "preserve",
     "semi": true,
     "singleQuote": true,
