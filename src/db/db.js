@@ -59,7 +59,7 @@ export const toolList = {
             url: 'https://codesandbox.io'
         },
         {
-            name: 'Mobile Device Debugger',
+            name: 'Mobile Debugger',
             url:
                 'https://github.com/wuchangming/spy-debugger/blob/master/README_EN.md'
         },
@@ -96,7 +96,7 @@ export const toolList = {
             url: 'https://wangchujiang.com/linux-command/'
         },
         {
-            name: 'Docusaurus: Doc Generator',
+            name: 'Doc Generator',
             url: 'https://docusaurus.io'
         },
         {
@@ -104,7 +104,7 @@ export const toolList = {
             url: 'https://tympanus.net/codrops/css_reference/'
         },
         {
-            name: 'CSS Visual Reference',
+            name: 'CSS Visuals',
             url: 'https://cssreference.io'
         },
         {
@@ -126,7 +126,7 @@ export const techList = {
             url: 'https://reactjs.org'
         },
         {
-            name: 'React Lifecycle Methods',
+            name: 'React Lifecycle',
             url: 'http://projects.wojtekmaj.pl/react-lifecycle-methods-diagram/'
         },
         {
@@ -208,7 +208,7 @@ export const specList = {
             url: 'http://es5.github.io'
         },
         {
-            name: 'Airbnb JavaScript Style Guide',
+            name: 'Airbnb JS Style',
             url: 'https://github.com/airbnb/javascript'
         }
     ]
@@ -232,11 +232,11 @@ export const learningList = {
     title: 'Learning Resources',
     list: [
         {
-            name: 'Frnt-End Interview Handbook',
+            name: 'Frnt-End Interview',
             url: 'https://github.com/yangshun/front-end-interview-handbook'
         },
         {
-            name: 'General Interview Handbook',
+            name: 'General Interview',
             url: 'https://yangshun.github.io/tech-interview-handbook/'
         },
         {
