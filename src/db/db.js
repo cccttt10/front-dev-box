@@ -232,8 +232,12 @@ export const learningList = {
     title: 'Learning Resources',
     list: [
         {
-            name: 'Interview Handbook',
+            name: 'Frnt-End Interview Handbook',
             url: 'https://github.com/yangshun/front-end-interview-handbook'
+        },
+        {
+            name: 'General Interview Handbook',
+            url: 'https://yangshun.github.io/tech-interview-handbook/'
         },
         {
             name: '2019 Front-End Handbook',
