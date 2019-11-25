@@ -240,11 +240,11 @@ export const learningList = {
             url: 'https://yangshun.github.io/tech-interview-handbook/'
         },
         {
-            name: '2019 Front-End Handbook',
+            name: 'Front-End Handbook',
             url: 'https://frontendmasters.com/books/front-end-handbook/2019/'
         },
         {
-            name: '2019 Developer Roadmap',
+            name: 'Developer Roadmap',
             url: 'https://github.com/kamranahmedse/developer-roadmap'
         },
         {
@@ -260,7 +260,7 @@ export const learningList = {
             url: 'https://www.udemy.com'
         },
         {
-            name: 'Atlassian Git Tutorial',
+            name: 'Git Reference',
             url: 'https://www.atlassian.com/git/tutorials'
         }
     ]
