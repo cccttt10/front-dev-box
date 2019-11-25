@@ -110,6 +110,10 @@ export const toolList = {
         {
             name: 'Google Fonts',
             url: 'https://fonts.google.com'
+        },
+        {
+            name: 'Favicon Generator',
+            url: 'https://realfavicongenerator.net'
         }
     ]
 };
@@ -228,6 +232,10 @@ export const learningList = {
     title: 'Learning Resources',
     list: [
         {
+            name: 'Interview Handbook',
+            url: 'https://github.com/yangshun/front-end-interview-handbook'
+        },
+        {
             name: '2019 Front-End Handbook',
             url: 'https://frontendmasters.com/books/front-end-handbook/2019/'
         },
@@ -246,6 +254,10 @@ export const learningList = {
         {
             name: 'Udemy',
             url: 'https://www.udemy.com'
+        },
+        {
+            name: 'Atlassian Git Tutorial',
+            url: 'https://www.atlassian.com/git/tutorials'
         }
     ]
 };
