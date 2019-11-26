@@ -248,8 +248,12 @@ export const learningList = {
             url: 'https://github.com/kamranahmedse/developer-roadmap'
         },
         {
-            name: 'Leet Code',
+            name: 'LeetCode',
             url: 'https://leetcode.com'
+        },
+        {
+            name: 'LeetCode List',
+            url: 'https://leetcode.com/list/xl5sem8r'
         },
         {
             name: 'Design Patterns',
